@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Go Green</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Gabriela" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/menu.css">
+  </head>
+  <body>
+    <img src="./images/logo.png"></img>
+       <nav>
+      <div class="hamburger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+    <div class="game-container">
+      <div id="splash">
+        <div class="splash-text">
+          <h1 class="level"></h1>
+          <h2>Статистиката показва, че 80% от хората не знаят как да рециклират боклука правилно, а 76% от отпадъците могат да бъдат рециклирани. Този урок ще тества вашите знания в рециклирането</h2>
+          <br>
+          <h2>Преместете кошчето в правилния кофа за боклук и не позволявайте на злия вратар да ви хване кошчето. Използвайте тези клавиши, за да контролирате движението на боклука</h2>
+          <img src="./images/keyboardArrows.png"></img>
+          <h2>Press any key to begin</h2>
+        </div>
+      </div>
+      <div id="win-splash">
+        <div class="splash-text">
+          <h1>Добра работа!</h1>
+          <h2 id="victory"><h2>
+          <h2>Ти завърши успешно теста!</h2>
+          <br>
+          <h2>Поздравления, ти знаеш как да събираш разделно отпадъци!</h2>
+          <h2>Запомни да приложиш усвоените знания и в истинския живот</h2>
+          <br>
+        </div>
+      </div>
+      <div id="lose-splash">
+        <div class="splash-text">
+          <h1 class="level"></h1>
+         <h2> Вие губите !!! </h2>
+           <h2>Не се предавайте, вярвам, че следващия път можете да направите по-добро... </h2>
+           <h2> Кликнете върху бутона за нулиране, за да рестартирате отново този тест</h2>
+           <h2> Късмет !!! </h2>
+        </div>
+      </div>
+      <div id="myElement"><img id="muteButton" src="./images/unmute.png"/></div>
+      <div id="restart"><img id="restartButton" src="./images/restart.png"/></div>
+      <canvas id="canvas" width="1350" height="500"></canvas>
+    </div>
+
+    <script type="application/javascript" src="./lib/bundle.js"></script>
+    <script src=""></script>
+  </body>
+</html>
